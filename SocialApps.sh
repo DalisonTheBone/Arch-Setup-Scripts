@@ -7,7 +7,7 @@ sudo pacman -S --noconfirm discord
 sudo pacman -S --noconfirm lutris steam
 
 # Install Wine
-sudo pacman -S --noconfirm wine wine-mono wine-gecko
+sudo pacman -S --noconfirm wine wine-mono wine-gecko winetricks
 
 # Install Roblox
 flatpak install -y flathub org.vinegarhq.Sober
