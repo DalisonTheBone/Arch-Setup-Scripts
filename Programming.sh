@@ -8,3 +8,4 @@ sudo pacman -S --noconfirm nodejs npm
 
 # Install Fonts
 sudo pacman -S --noconfirm ttf-dejavu ttf-liberation noto-fonts
+fc-cache -fv
