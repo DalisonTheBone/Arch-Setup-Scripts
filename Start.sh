@@ -8,7 +8,7 @@ sudo systemctl enable sddm
 sudo pacman -S --needed --noconfirm base-devel git
 git clone https://aur.archlinux.org/yay.git
 cd yay
-makepkg -si --noconfirm
+sudo makepkg -si --noconfirm
 cd ..
 
 # Install flatpak
