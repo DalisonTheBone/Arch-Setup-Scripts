@@ -1,21 +1,19 @@
 #!/bin/sh
 echo "Starting Installation."
-sh Start.sh
+./Start.sh
 clear
 echo "Finished Start"
 
-sh MainApps.sh
+./MainApps.sh
 clear
 echo "Finished Installing Main Apps"
 
-sh SocialApps.sh
+./SocialApps.sh
 clear
 echo "Finished Installing Social Apps"
 
-sh Programming.sh
+./Programming.sh
 clear
 echo "Finished Installing programming apps and languages"
 
 echo "Install complete!"
-
-sudo reboot
