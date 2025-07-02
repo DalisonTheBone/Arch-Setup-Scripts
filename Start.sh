@@ -16,7 +16,7 @@ sudo pacman -S flatpak --noconfirm
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 # Allow Multilib in pacman conf
-printf "[multilib]\nInclude = /etc/packman.d/mirrorlist" >> /etc/pacman.conf
+printf "[multilib]\nInclude = /etc/pacman.d/mirrorlist" >> /etc/pacman.conf
 
 # Update System to add Multilib
 sudo pacman -Syu
