@@ -5,11 +5,8 @@ sudo pacman -S --noconfirm plasma sddm
 sudo systemctl enable sddm
 
 # Install yay and git
-sudo pacman -S --needed --noconfirm base-devel
-git clone https://aur.archlinux.org/yay.git
-cd yay
-sudo makepkg -si --noconfirm
-cd ..
+sudo pacman -S --needed --noconfirm base-devel git
+bash InstallYay.sh
 
 # Install flatpak
 sudo pacman -S flatpak --noconfirm
